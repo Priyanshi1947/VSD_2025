@@ -1,0 +1,15 @@
+Summary report - Getting started with Digital VLSI SOC Design and Planning
+RISC-V SoC Design: RTL to Tapeout – Quick Overview
+Target Chips: 100–130 MHz programmable chips, similar to those used in Arduino boards.
+Core Concept: RISC-V architecture enables open-source, customizable SoC development.
+Microcontroller vs Microprocessor:
+Microcontroller: Integrated CPU + memory + peripherals; ideal for embedded systems.
+Microprocessor: CPU only; relies on external components for full system functionality.
+
+Design Flow Summary
+Specification Definition - Based on application needs, written in C or system-level language.
+RTL Design - Hardware described using Verilog at Register Transfer Level (RTL).
+Synthesis - RTL converted to Gate-Level Netlist using tools like Yosys.
+IP Integration - Combine processor core, peripherals, analog IPs, and macros.
+Tapeout Preparation - Final layout and verification for ASIC fabrication.
+
